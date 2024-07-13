@@ -18,9 +18,9 @@ export const Home = () => {
         <Row>
           <Col><Link><img
           className="d-block w-100"
-          src="https://www.drybar.com/media/wysiwyg/definition_widget/LGCollection_2024_DefinitionWidget_D900x540.jpg"
+          src="https://www.drybar.com/media/wysiwyg/definition_widget/ReserveBlowDryer_BeforeAfter_DefWidget_900x540.jpg"
           alt="First slide"
-          height={"500px"}
+          height={"570px"}
         /></Link></Col>
           <Col style={{backgroundColor:"lightskyblue"}}>
             <div style={{textAlign:"center",marginTop:"170px"}}>
@@ -38,7 +38,7 @@ export const Home = () => {
             className="d-block w-100"
             src="https://www.drybar.com/media/wysiwyg/definition_widget/DefWidget_ShotCollection_D900x540.jpg"
             alt="First slide"
-            height={"500px"}
+            height={"570px"}
           /></Link></Col>
             <Col style={{backgroundColor:"lightyellow"}}>
             <div style={{textAlign:"center",marginTop:"170px"}}>
@@ -55,7 +55,7 @@ export const Home = () => {
               className="d-block w-100"
               src="https://www.drybar.com/media/wysiwyg/definition_widget/BackToSchool_DefinitionWidget2_764x789.jpg"
               alt="First slide"
-              height={"500px"}
+              height={"570px"}
             /></Link></Col>
               <Col style={{backgroundColor:"lightskyblue"}}>
             <div style={{textAlign:"center",marginTop:"170px"}}>
