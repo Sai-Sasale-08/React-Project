@@ -190,17 +190,6 @@ export const Home = () => {
 
         </div><br />
 
-        <div style={{background:"#f9f9f9",display:"flex",justifyContent:"center",alignItems:"center",padding:"60px 0px 60px"}}>
-          <div style={{textAlign:"center"}}>
-          <h1>GET OUR UPDATES</h1>
-          <p>Sign up and stay in the know!</p>
-          <p>Subscribe to get the latest Drybar news and exclusive</p>
-          <p>offers.</p>
-          <p>By signing up, you agree to our Privacy Policy and Terms of Use.</p>
-          <input type="text" placeholder='Enter Your Email Address' style={{padding:"0px 25px"}}/><button style={{color:"white",backgroundColor:"black",padding:"0px 25px "}}>Join</button>
-          </div>
-        </div><br /><br />
-    
         <Footer/>
     </div>
     
