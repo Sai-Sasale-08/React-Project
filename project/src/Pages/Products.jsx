@@ -1,11 +1,5 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
 import { useDispatch, useSelector } from "react-redux";
-import {
-  GET_DATA_FAILURE,
-  GET_DATA_REQUEST,
-  GET_DATA_SUCCESS,
-} from "../Redux/actionType";
 import Container from "react-bootstrap/esm/Container";
 import Footer from "../Components/Footer";
 import { FaChevronRight, FaChevronLeft } from "react-icons/fa";
@@ -13,6 +7,7 @@ import FilterSidebar from "./FilterSidebar";
 import Dropdown from "react-bootstrap/Dropdown";
 import DropdownButton from "react-bootstrap/DropdownButton";
 import { getdatafromserver } from "../Redux/Product/action";
+import { useSearchParams } from "react-router-dom";
 
 
 // LOGIC PART ARE FOLLOWING 
@@ -24,6 +19,7 @@ const Products = () => {
   const dispatch = useDispatch();
   const [sort, setsort] = useState(null);
   const [page,setpage]=useState(1)
+  const [searchParams, setSearchParams] = useSearchParams();
 
 
   useEffect(() => {
@@ -33,10 +29,11 @@ const Products = () => {
         _order: sort,
         _limit:20,
         _page:page,
+        category:searchParams.getAll("category")
       },
     }
     dispatch(getdatafromserver(paramobj))
-  }, [sort,page]);
+  }, [sort,page,searchParams]);
 
 
 // WRITE PART ARE FOLLOWING
