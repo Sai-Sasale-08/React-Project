@@ -3,10 +3,30 @@ import { Link } from 'react-router-dom'
 import { MdLocalShipping } from "react-icons/md";
 import { MdOutlineMoreTime } from "react-icons/md";
 import { MdOutlinePhoneIphone } from "react-icons/md";
+import Container from 'react-bootstrap/Container';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { CiSearch } from "react-icons/ci";
+import { CiUser } from "react-icons/ci";
+import { LuMapPin } from "react-icons/lu";
 
 const Navbar = () => {
   return (
-    <div style={{marginTop:"22px"}}>
+    <div>
+      <div style={{fontSize:'20px'}}>
+        <Container fluid style={{backgroundColor:"#f9f9f9"}}>
+        <Container style={{display:"flex",justifyContent:"space-between"}}>
+            <div>
+              <p>evdecbdj </p>
+            </div>
+            <div style={{display:"flex",fontSize:'23px',margin:"5px 0px"}}>
+                <CiSearch style={{marginRight:"18px",marginTop:"10px"}}/>
+                <Link to={'/login'} style={{marginRight:"18px",color:"black"}}>  <CiUser /></Link>
+                <Link to={'/map'} style={{color:"black"}}>  <LuMapPin /></Link>
+            </div>
+        </Container>
+        </Container>
+      </div>
+      <div style={{marginTop:"22px"}}>
       <div style={{textAlign:"center"}} >
       <div style={{marginBottom:"10px"}}>
         <Link to={'/'}><img src="https://www.drybar.com/static/version1719476571/frontend/Hot/default/en_US/images/logo.svg" alt="" /></Link>
@@ -27,6 +47,7 @@ const Navbar = () => {
 
       </div>
       </div>
+    </div>
     </div>
   )
 }

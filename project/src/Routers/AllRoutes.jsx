@@ -7,6 +7,9 @@ import HairTools from '../Pages/HairTools'
 import HowTo from '../Pages/HowTo'
 import Products from '../Pages/Products'
 import New from '../Pages/New'
+import SigninLogin from '../LoginFirebase/SigninLogin'
+import SignUp from '../LoginFirebase/SignUp'
+
 
 const AllRoutes = () => {
   return (
@@ -19,6 +22,8 @@ const AllRoutes = () => {
         <Route path='/howtoandsets' element={<HowTo/>}></Route>
         <Route path='/products' element={<Products/>}></Route>
         <Route path='/new' element={<New/>}></Route>
+        <Route path='/login' element={<SigninLogin/>}></Route>
+        <Route path='/signup' element={<SignUp/>}></Route>
         <Route path='*' element={<h1> 404 Not Found Page </h1>}></Route>
       </Routes>
     </div>
