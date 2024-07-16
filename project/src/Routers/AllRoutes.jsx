@@ -9,6 +9,7 @@ import Products from '../Pages/Products'
 import New from '../Pages/New'
 import SigninLogin from '../LoginFirebase/SigninLogin'
 import SignUp from '../LoginFirebase/SignUp'
+import ProductDetails from '../Pages/ProductDetails'
 
 
 const AllRoutes = () => {
@@ -21,6 +22,7 @@ const AllRoutes = () => {
         <Route path='/hairtools' element={<HairTools/>}></Route>
         <Route path='/howtoandsets' element={<HowTo/>}></Route>
         <Route path='/products' element={<Products/>}></Route>
+        <Route path='/productdetails/:id' element={<ProductDetails/>}></Route>
         <Route path='/new' element={<New/>}></Route>
         <Route path='/login' element={<SigninLogin/>}></Route>
         <Route path='/signup' element={<SignUp/>}></Route>

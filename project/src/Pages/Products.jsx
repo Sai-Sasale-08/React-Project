@@ -7,7 +7,7 @@ import FilterSidebar from "./FilterSidebar";
 import Dropdown from "react-bootstrap/Dropdown";
 import DropdownButton from "react-bootstrap/DropdownButton";
 import { getdatafromserver } from "../Redux/Product/action";
-import { useSearchParams } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 
 
 // LOGIC PART ARE FOLLOWING 
@@ -93,7 +93,7 @@ const Products = () => {
             }}
           >
             {data.map((el) => (
-              <div key={el.id}>
+             <Link to={`/productdetails/${el.id}`} style={{color:"black",textDecoration:"none"}}> <div key={el.id}>
                 <img
                   src={el.images[0]}
                   alt=""
@@ -103,7 +103,7 @@ const Products = () => {
                 />
                 <p>{el.title}</p>
                 <p>PRICE:- {el.price}</p>
-              </div>
+              </div></Link>
             ))}
           </div>
           <br />

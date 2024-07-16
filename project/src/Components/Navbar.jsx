@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { CiSearch } from "react-icons/ci";
 import { CiUser } from "react-icons/ci";
 import { LuMapPin } from "react-icons/lu";
+import { MdOutlineShoppingBag } from "react-icons/md";
 
 const Navbar = () => {
   return (
@@ -26,12 +27,19 @@ const Navbar = () => {
         </Container>
         </Container>
       </div>
+
+
+
       <div style={{marginTop:"22px"}}>
       <div style={{textAlign:"center"}} >
-      <div style={{marginBottom:"10px"}}>
+      <div style={{marginBottom:"10px",position:"relative"}}>
         <Link to={'/'}><img src="https://www.drybar.com/static/version1719476571/frontend/Hot/default/en_US/images/logo.svg" alt="" /></Link>
         {/* <img src="https://www.drybar.com/static/version1719476571/frontend/Hot/default/en_US/images/logo-animation.svg" alt="" /> */}
+        <div style={{position:"absolute",left:"80%",fontSize:"30px",top:"10px"}}>
+        <MdOutlineShoppingBag />
       </div>
+      </div>
+      
       <div >
         <Link to={'/products'} style={{marginRight:"80px",textDecoration:"none",color:"black"}}>Hair Product</Link>
         <Link to={'/hairtools'} style={{marginRight:"80px",textDecoration:"none",color:"black"}}>Hair Tools</Link>
@@ -39,6 +47,9 @@ const Navbar = () => {
         <Link to={'/giftsNSets'} style={{marginRight:"80px",textDecoration:"none",color:"black"}}>Gifts & Sets</Link>
         <Link to={'/new'} style={{marginRight:"80px",textDecoration:"none",color:"black"}}>New</Link>
         <Link to={'/howtoandsets'} style={{textDecoration:"none",color:"black"}}>How To & Inspo</Link>
+        
+        
+      
       </div>
       <div style={{backgroundColor:"gray",marginBottom:"10px",marginTop:"20px",padding:"20px"}}>
         <Link to={''} style={{marginRight:"50px",textDecoration:"none",color:"black"}}><MdLocalShipping/> Free Shipping on all purchase</Link>
@@ -47,7 +58,9 @@ const Navbar = () => {
 
       </div>
       </div>
+      
     </div>
+    
     </div>
   )
 }
