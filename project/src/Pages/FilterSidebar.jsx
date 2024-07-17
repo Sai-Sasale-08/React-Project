@@ -43,35 +43,37 @@ const FilterSidebar = () => {
           checked={category.includes("Best Seller")}
           onChange={(e) => handlechange(e)}
         />{" "}
-        Best seller <br />
+        Coconut Colada
+        <br />
         <input
           type="checkbox"
           value={"Special Offer"}
           checked={category.includes("Special Offer")}
           onChange={(e) => handlechange(e)}
         />{" "}
-        special <br />
+       Lush <br />
         <input
           type="checkbox"
           value={"Regular price range"}
           checked={category.includes("Regular price range")}
           onChange={(e) => handlechange(e)}
         />{" "}
-        regular p range <br />
+        Noir <br />
         <input
           type="checkbox"
           value={"regular price"}
           checked={category.includes("regular price")}
           onChange={(e) => handlechange(e)}
         />{" "}
-        regular price <br />
+       Sangria Spritze <br />
         <input
           type="checkbox"
           value={"hair care"}
           checked={category.includes("hair care")}
           onChange={(e) => handlechange(e)}
         />{" "}
-        hair cair <br />
+        Grapefruit Mimosa
+        <br />
       </div>
     </div>
   );

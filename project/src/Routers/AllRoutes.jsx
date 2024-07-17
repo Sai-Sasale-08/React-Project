@@ -11,6 +11,7 @@ import SigninLogin from '../LoginFirebase/SigninLogin'
 import SignUp from '../LoginFirebase/SignUp'
 import ProductDetails from '../Pages/ProductDetails'
 import PaymentPage from '../Pages/PaymentPage'
+import {PrivetRoute} from './PrivetRoute'
 
 
 const AllRoutes = () => {
@@ -22,7 +23,11 @@ const AllRoutes = () => {
         <Route path='/giftsNSets' element={<GiftsNSets/>}></Route>
         <Route path='/hairtools' element={<HairTools/>}></Route>
         <Route path='/howtoandsets' element={<HowTo/>}></Route>
-        <Route path='/paymentpage' element={<PaymentPage/>}></Route>
+        <Route path='/paymentpage' element={
+          <PrivetRoute>
+          <PaymentPage/>
+           </PrivetRoute>
+          }></Route>
         <Route path='/products' element={<Products/>}></Route>
         <Route path='/productdetails/:id' element={<ProductDetails/>}></Route>
         <Route path='/new' element={<New/>}></Route>

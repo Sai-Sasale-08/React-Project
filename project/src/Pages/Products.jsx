@@ -46,7 +46,7 @@ const Products = () => {
     <div>
       <Container className="d-flex">
         <div style={{ width: "20%" }}>
-          <h1>filter</h1>
+          <h1>Scent</h1>
           <FilterSidebar />
         </div>
 

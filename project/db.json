@@ -398,5 +398,15 @@
       "title": "Liquid Glass Instant Glossing Rinse"
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "id": 14,
+      "price": 15,
+      "category": "hair care",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/f/i/finalcall_blanc_travel_white_rgb_large.jpg"
+      ],
+      "title": "Final Call Frizz & Static Control Mist Travel Size"
+    }
+  ]
 }

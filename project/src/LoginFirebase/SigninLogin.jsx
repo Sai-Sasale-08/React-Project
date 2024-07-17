@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Container from 'react-bootstrap/esm/Container'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
@@ -6,8 +6,28 @@ import Row from 'react-bootstrap/esm/Row';
 import Col from 'react-bootstrap/esm/Col';
 import { FaFacebookF, FaInstagram, FaTiktok, FaYoutube } from 'react-icons/fa';
 import { RiTwitterXLine } from 'react-icons/ri';
+import { signInWithEmailAndPassword } from 'firebase/auth'
+import { auth } from '../Services/firebase';
+import GoogleLogin from './GoogleLogin';
 
 const SigninLogin = () => {
+
+    const[email,setemail]=useState("")
+    const[password,setpassword]=useState("")
+
+    const handlesignin=()=>{
+        let user={
+            email,
+            password
+        }
+        console.log(user)
+        signInWithEmailAndPassword(auth, email, password)
+        .then((res)=>{
+            console.log(res)
+            alert("LOGIN SUCCESS")
+        })
+        .catch((err)=>console.log(err))
+    } 
   return (
     <>
     <div style={{width:"100%"}}>
@@ -23,16 +43,15 @@ const SigninLogin = () => {
                 <p style={{fontSize:"20px"}}>Registered Customers</p>
                 <p>If you have an account, sign in with your email address.</p>
 
-                <input type="text" style={{width:"100%",padding:"3px 2px"}} placeholder='Email *' /><br /><br />
-                <input type="text" style={{width:"100%",padding:"3px 2px"}} placeholder='Password *'/><br /><br /><br />
+                
+                        <input type="text" onChange={(e)=>setemail(e.target.value)} style={{width:"100%",padding:"3px 2px"}} placeholder='Email *' /><br /><br />
+                        <input type="text" onChange={(e)=>setpassword(e.target.value)} style={{width:"100%",padding:"3px 2px"}} placeholder='Password *'/><br /><br /><br />
+                        <button onClick={handlesignin} style={{textAlign:"center",display:"block",padding:"3px 133px",fontSize:"14px"}}>Sign In</button>
 
+                        <div style={{marginTop:"20px",marginLeft:"40px"}}><GoogleLogin/></div>
 
-                <div style={{display:"flex",justifyContent:"center"}}>
-                  
-                      <button style={{textAlign:"center",display:"block",padding:"3px 75px",fontSize:"14px"}}>Sign In</button>
-                      
-                  
-                </div>
+                        <div style={{textAlign:"center",display:"flex",justifyContent:"center",marginTop:"10px"}}><button style={{padding:"3px 50px",fontSize:"14px"}}>Log Out</button></div>
+                
                 
                 <div style={{display:"flex",justifyContent:"center"}}>
                   
