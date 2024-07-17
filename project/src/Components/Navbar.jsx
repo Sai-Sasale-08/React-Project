@@ -8,16 +8,21 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { CiSearch } from "react-icons/ci";
 import { CiUser } from "react-icons/ci";
 import { LuMapPin } from "react-icons/lu";
-import { MdOutlineShoppingBag } from "react-icons/md";
+
+import Cart from '../Pages/Cart';
+
 
 const Navbar = () => {
+
+ 
+
   return (
     <div>
       <div style={{fontSize:'20px'}}>
         <Container fluid style={{backgroundColor:"#f9f9f9"}}>
         <Container style={{display:"flex",justifyContent:"space-between"}}>
             <div>
-              <p>evdecbdj </p>
+            <p>fvhcvd</p>
             </div>
             <div style={{display:"flex",fontSize:'23px',margin:"5px 0px"}}>
                 <CiSearch style={{marginRight:"18px",marginTop:"10px"}}/>
@@ -35,8 +40,9 @@ const Navbar = () => {
       <div style={{marginBottom:"10px",position:"relative"}}>
         <Link to={'/'}><img src="https://www.drybar.com/static/version1719476571/frontend/Hot/default/en_US/images/logo.svg" alt="" /></Link>
         {/* <img src="https://www.drybar.com/static/version1719476571/frontend/Hot/default/en_US/images/logo-animation.svg" alt="" /> */}
-        <div style={{position:"absolute",left:"80%",fontSize:"30px",top:"10px"}}>
-        <MdOutlineShoppingBag />
+        <div style={{position:"absolute",left:"80%",top:"10px"}}>
+        
+        <Cart />
       </div>
       </div>
       

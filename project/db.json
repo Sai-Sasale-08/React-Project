@@ -1,403 +1,402 @@
 {
-    "products":
-     [
-      {
-        "id": 1,
-        "price": 42.00,
-        "category": "regular price",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/f/i/finalcall_blanc_us_retail_3600x3600.jpg",
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/f/i/finalcall_ba_2_1.jpg"
-        ],
-        "title": "Final Call Frizz & Static Control Mist Jumbo Size",
-        "url": "https://www.drybar.com/hair-care-products/all-hair-care-products/final-call-frizz-static-control-mist-jumbo-size"
-      },
-      {
-        "id": 2,
-        "price":32.00,
-        "category": "Regular price range",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/c/u/cureliqueurcond_retail_bottle_3500x3500_1.jpg",
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/c/u/cureliqueur_flatlay_wbadge_5.jpg"
-        ],
-        "title": "Cure Liqueur Strengthening Conditioner",
-        "url": "https://www.drybar.com/hair-care-products/all-hair-care-products/cure-liqueur-strengthening-conditioner"
-      },
-      {
-        "id": 3,
-        "price": 27.00,
-        "category": "Regular price range",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/p/r/preprallyprimeprepdetanglerfullsize_1_2.jpg",
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/p/r/preprallyprimeprepdetanglerfullsize_5.jpg"
-        ],
-        "title": "Prep Rally Prime & Prep Detangler",
-        "url": "https://www.drybar.com/hair-care-products/all-hair-care-products/prep-rally-prime-prep-detangler"
-      },
-      {
-        "id": 4,
-        "price": 32.00,
-        "category": "regular price",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/g/lg_blowoutcream.jpg",
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/g/lgcream_ba_2.jpg"
-        ],
-        "title": "Liquid Glass High-Gloss Smoothing Blowout Cream",
-        "url": "https://www.drybar.com/hair-care-products/all-hair-care-products/liquid-glass-high-gloss-smoothing-blowout-cream"
-      },
-      {
-        "id": 5,
-        "price": 59.00,
-        "category": "Regular price range",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/i/liquidglasssmoothingshampoo_1_1.jpg",
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/i/liquidglass_flatlay-wbadge_2.jpg"
-        ],
-        "title": "Liquid Glass Smoothing Shampoo",
-        "url": "https://www.drybar.com/hair-care-products/all-hair-care-products/liquid-glass-smoothing-shampoo"
-      },
-      {
-        "id": 6,
-        "price": 34.00,
-        "category": "Regular price range",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/i/liquidglass_flatlay-1.jpg",
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/i/liquidglass_sealant-12.jpg"
-        ],
-        "title": "Liquid Glass Miracle Smoothing Sealant",
-        "url": "https://www.drybar.com/hair-care-products/all-hair-care-products/liquid-glass-miracle-smoothing-sealant"
-      },
-      {
-        "id": 7,
-        "price": 35.00,
-        "category": "regular price",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/m/o/moneymaker_backbar_rgb_large.jpg"
-        ],
-        "title": "Money Maker Flexible Hold Hairspray Jumbo Size",
-        "url": "https://www.drybar.com/hair-care-products/all-hair-care-products/money-maker-flexible-hold-hairspray-jumbo-size"
-      },
-      {
-        "id": 8,
-        "price": 59.00,
-        "category": "Regular price range",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/i/liquidglasssmoothingconditioner_1_1.jpg",
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/i/liquidglass_flatlay-wbadge_5.jpg"
-        ],
-        "title": "Liquid Glass Smoothing Conditioner",
-        "url": "https://www.drybar.com/hair-care-products/all-hair-care-products/liquid-glass-smoothing-conditioner"
-      },
-      {
-        "id": 9,
-        "price": 54.00,
-        "category": "Regular price range",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/h/o/hottoddyheatprotectantmistfullsize_1.jpg.jpg",
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/h/o/hottoddyheatprotectantmistfullsize_3.jpg"
-        ],
-        "title": "Hot Toddy Heat Protectant Mist",
-        "url": "https://www.drybar.com/hair-care-products/all-hair-care-products/hot-toddy-heat-protectant-mist"
-      },
-      {
-        "id": 10,
-        "price": 28.00,
-        "category": "regular price",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/e/detoxthickening.jpg",
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/e/detoxthickening-13.jpg"
-        ],
-        "title": "Detox Thickening Dry Shampoo",
-        "url": "https://www.drybar.com/hair-care-products/all-hair-care-products/detox-thickening-dry-shampoo"
-      },
-      {
-        "id": 11,
-        "price": 30.00,
-        "category": "hair care",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/h/i/highvolumeponyset_3600x3600.jpg",
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/the3daybenderrotatingcurlingiron_3_9.jpg"
-        ],
-        "title": "High Volume Pony Set"
-      },
-      {
-        "id": 12,
-        "price": 161.70,
-        "category": "hair care",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/o/southerncomfortset_3600x3600.jpg",
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/o/southernbellevolumemousse_2_3.jpg"
-        ],
-        "title": "The Southern Comfort Set"
-      },
-      {
-        "id": 13,
-        "price": 205.10,
-        "category": "hair care",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/thecosmoset_3600x3600.jpg",
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/the3daybenderrotatingcurlingiron_2_1_1.jpg"
-        ],
-        "title": "The Cosmo Set"
-      },
-      {
-        "id": 14,
-        "price": 15.00,
-        "category": "hair care",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/f/i/finalcall_blanc_travel_white_rgb_large.jpg"
-        ],
-        "title": "Final Call Frizz & Static Control Mist Travel Size"
-      },
-      {
-        "id": 15,
-        "price": 28.00,
-        "category": "hair care",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/b/i/bigswigthickeningsprayfullsize_1_1.jpg",
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/b/i/bigswigthickeningsprayfullsize_19_1.jpg"
-        ],
-        "title": "Big Swig Thickening Spray"
-      },
-      {
-        "id": 16,
-        "price": 15.00,
-        "category": "hair care",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/f/i/finalcall_blanc_retail_white_rgb_1.jpg",
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/f/i/finalcall_ba_2_2.jpg"
-        ],
-        "title": "Final Call Frizz & Static Control Mist"
-      },
-      {
-        "id": 17,
-        "price": 28.00,
-        "category": "hair care",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/e/detoxgentle.jpg",
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/e/detoxgentle_infographic1_benefits.jpg"
-        ],
-        "title": "Detox Gentle Sensitive Scalp Dry Shampoo"
-      },
-      {
-        "id": 18,
-        "price": 36.00,
-        "category": "hair care",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/c/r/crowntonic_allure.jpg",
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/c/r/crowntonic_flatlay-7.jpg"
-        ],
-        "title": "Crown Tonic Pre-Shampoo Scalp-Balancing Cleanser"
-      },
-      {
-        "id": 19,
-        "price": 32.00,
-        "category": "hair care",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/c/u/cureliqueursham_retail_bottle_3500x3500_1.jpg",
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/c/u/cureliqueur_flatlay_wbadge_3.jpg"
-        ],
-        "title": "Cure Liqueur Strengthening Shampoo"
-      },
-      {
-        "id": 20,
-        "price": 29.00,
-        "category": "hair care",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/p/sparklingsodashinemistfullsize_1.jpg"
-        ],
-        "title": "Sparkling Soda Shine Mist"
-      },
-      {
-        "id": 21,
-        "price": 26.00,
-        "category": "Best Seller",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/g/i/gin_twist_sham_1.jpg",
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/g/i/gintwist_flatlay_wbadge_3.jpg"
-        ],
-        "title": "Gin Twist Curl Quenching Shampoo"
-      },
-      {
-        "id": 22,
-        "price": 54.00,
-        "category": "hair care",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/e/seltzerspritz_hairspray_original_bb_3600x3600.jpg",
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/e/seltzerspritz_ba_1.jpg"
-        ],
-        "title": "Seltzer Spritz Flexible Hold Hairspray Jumbo Size"
-      },
-      {
-        "id": 23,
-        "price": 42.00,
-        "category": "hair care",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/e/detoxdryshampoooriginaljumbosize_1.jpg",
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/e/detoxdryshampoooriginaljumbosize_2.jpg"
-        ],
-        "title": "Detox Dry Shampoo Original Scent Jumbo Size"
-      },
-      {
-        "id": 24,
-        "price": 28.00,
-        "category": "hair care",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/g/i/gin_twist_styler.jpg",
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/g/i/gin_twist-29.jpg"
-        ],
-        "title": "Gin Twist Curl Conditioning Styler"
-      },
-      {
-        "id": 25,
-        "price": 26.00,
-        "category": "Best Seller",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/g/i/gin_twist_gelee.jpg",
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/g/i/gin_twist-31.jpg"
-        ],
-        "title": "Gin Twist Edge Control Gel"
-      },
-      {
-        "id": 26,
-        "price": 26.00,
-        "category": "Special Offer",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/g/i/gin_twist_sham_1.jpg",
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/g/i/gintwist_flatlay_wbadge_3.jpg"
-        ],
-        "title": "Gin Twist Curl Quenching Shampoo"
-      },
-      {
-        "id": 27,
-        "price": 26.00,
-        "category": "Special Offer",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/g/i/gin_twist_gelee.jpg",
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/g/i/gin_twist-31.jpg"
-        ],
-        "title": "Gin Twist Edge Control Gel"
-      },
-      {
-        "id": 28,
-        "price": 36.00,
-        "category": "Special Offer",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/c/o/cocomintfloat.jpg",
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/c/o/cocomintfloat_2023_infographic1.jpg"
-        ],
-        "title": "Cocomint Float Scalp and Body Scrub"
-      },
-      {
-        "id": 29,
-        "price": 23.00,
-        "category": "Special Offer",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/o/n/onetwopunch_0_1_1.jpg",
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/o/n/onetwopunch_flatlay_wbadge.jpg"
-        ],
-        "title": "One-Two Punch Water-Activated 2-in-1 Hair Wash"
-      },
-      {
-        "id": 30,
-        "price": 54.00,
-        "category": "Special Offer",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/e/seltzerspritz_hairspray_original_bb_3600x3600.jpg",
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/e/seltzerspritz_ba_1.jpg"
-        ],
-        "title": "Seltzer Spritz Flexible Hold Hairspray Jumbo Size"
-      },
-      {
-        "id": 31,
-        "price": 205.10,
-        "category": "Special Price",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/thecosmoset_3600x3600.jpg",
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/the3daybenderrotatingcurlingiron_2_1_1.jpg"
-        ],
-        "title": "The Cosmo Set"
-      },
-      {
-        "id": 32,
-        "price": 161.70,
-        "category": "Special Price",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/o/southerncomfortset_3600x3600.jpg",
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/o/southernbellevolumemousse_2_3.jpg"
-        ],
-        "title": "The Southern Comfort Set"
-      },
-      {
-        "id": 33,
-        "price": 183.40,
-        "category": "Special Price",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/h/i/highvolumeponyset_3600x3600.jpg",
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/the3daybenderrotatingcurlingiron_3_9.jpg"
-        ],
-        "title": "High Volume Pony Set"
-      },
-      {
-        "id": 34,
-        "price": 28.00,
-        "category": "regular price",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/e/detoxdryshamvanillabourbon_retail_white_rgb_update.jpg",
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/e/detoxdryshampoovanillabourbonfullsize_6_update.jpg"
-        ],
-        "title": "Detox Dry Shampoo Vanilla Bourbon Scent"
-      },
-      {
-        "id": 35,
-        "price": 28.00,
-        "category": "regular price",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/e/detoxdryshampoograpefruitmimosafullsize_1.jpg",
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/e/detoxdryshampoograpefruitmimosafullsize_4.jpg"
-        ],
-        "title": "Detox Dry Shampoo Grapefruit Mimosa Scent"
-      },
-      {
-        "id": 36,
-        "price": 28.00,
-        "category": "regular price",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/e/detoxdryshampoosangriaspritzer_1.jpg",
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/e/detoxdryshampoosangriaspritzer_2.jpg"
-        ],
-        "title": "Detox Dry Shampoo Sangria Spritzer Scent"
-      },
-      {
-        "id": 37,
-        "price": 29.00,
-        "category": "Best Seller",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/o/southernbellevolumerootlifterfullsize_1.jpg",
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/o/southernbellevolumerootlifterfullsize_2.jpg"
-        ],
-        "title": "Southern Belle Volume-Boosting Root Lifter"
-      },
-      {
-        "id": 38,
-        "price": 28.00,
-        "category": "Best Seller",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/the_sheriff_medium_hold_hairspray.jpg",
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/the_sheriff_medium_hold_hairspray.jpg"
-        ],
-        "title": "The Sheriff Medium Hold Hairspray"
-      },
-      {
-        "id": 39,
-        "price": 34.00,
-        "category": "Best Seller",
-        "images": [
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/i/liquidglassinstantglossingrinse.jpg",
-          "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/i/liquidglass_gloss-1.jpg"
-        ],
-        "title": "Liquid Glass Instant Glossing Rinse"
-      }
-    ]
-    
+  "products": [
+    {
+      "id": 1,
+      "price": 42,
+      "category": "regular price",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/f/i/finalcall_blanc_us_retail_3600x3600.jpg",
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/f/i/finalcall_ba_2_1.jpg"
+      ],
+      "title": "Final Call Frizz & Static Control Mist Jumbo Size",
+      "url": "https://www.drybar.com/hair-care-products/all-hair-care-products/final-call-frizz-static-control-mist-jumbo-size"
+    },
+    {
+      "id": 2,
+      "price": 32,
+      "category": "Regular price range",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/c/u/cureliqueurcond_retail_bottle_3500x3500_1.jpg",
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/c/u/cureliqueur_flatlay_wbadge_5.jpg"
+      ],
+      "title": "Cure Liqueur Strengthening Conditioner",
+      "url": "https://www.drybar.com/hair-care-products/all-hair-care-products/cure-liqueur-strengthening-conditioner"
+    },
+    {
+      "id": 3,
+      "price": 27,
+      "category": "Regular price range",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/p/r/preprallyprimeprepdetanglerfullsize_1_2.jpg",
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/p/r/preprallyprimeprepdetanglerfullsize_5.jpg"
+      ],
+      "title": "Prep Rally Prime & Prep Detangler",
+      "url": "https://www.drybar.com/hair-care-products/all-hair-care-products/prep-rally-prime-prep-detangler"
+    },
+    {
+      "id": 4,
+      "price": 32,
+      "category": "regular price",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/g/lg_blowoutcream.jpg",
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/g/lgcream_ba_2.jpg"
+      ],
+      "title": "Liquid Glass High-Gloss Smoothing Blowout Cream",
+      "url": "https://www.drybar.com/hair-care-products/all-hair-care-products/liquid-glass-high-gloss-smoothing-blowout-cream"
+    },
+    {
+      "id": 5,
+      "price": 59,
+      "category": "Regular price range",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/i/liquidglasssmoothingshampoo_1_1.jpg",
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/i/liquidglass_flatlay-wbadge_2.jpg"
+      ],
+      "title": "Liquid Glass Smoothing Shampoo",
+      "url": "https://www.drybar.com/hair-care-products/all-hair-care-products/liquid-glass-smoothing-shampoo"
+    },
+    {
+      "id": 6,
+      "price": 34,
+      "category": "Regular price range",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/i/liquidglass_flatlay-1.jpg",
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/i/liquidglass_sealant-12.jpg"
+      ],
+      "title": "Liquid Glass Miracle Smoothing Sealant",
+      "url": "https://www.drybar.com/hair-care-products/all-hair-care-products/liquid-glass-miracle-smoothing-sealant"
+    },
+    {
+      "id": 7,
+      "price": 35,
+      "category": "regular price",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/m/o/moneymaker_backbar_rgb_large.jpg"
+      ],
+      "title": "Money Maker Flexible Hold Hairspray Jumbo Size",
+      "url": "https://www.drybar.com/hair-care-products/all-hair-care-products/money-maker-flexible-hold-hairspray-jumbo-size"
+    },
+    {
+      "id": 8,
+      "price": 59,
+      "category": "Regular price range",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/i/liquidglasssmoothingconditioner_1_1.jpg",
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/i/liquidglass_flatlay-wbadge_5.jpg"
+      ],
+      "title": "Liquid Glass Smoothing Conditioner",
+      "url": "https://www.drybar.com/hair-care-products/all-hair-care-products/liquid-glass-smoothing-conditioner"
+    },
+    {
+      "id": 9,
+      "price": 54,
+      "category": "Regular price range",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/h/o/hottoddyheatprotectantmistfullsize_1.jpg.jpg",
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/h/o/hottoddyheatprotectantmistfullsize_3.jpg"
+      ],
+      "title": "Hot Toddy Heat Protectant Mist",
+      "url": "https://www.drybar.com/hair-care-products/all-hair-care-products/hot-toddy-heat-protectant-mist"
+    },
+    {
+      "id": 10,
+      "price": 28,
+      "category": "regular price",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/e/detoxthickening.jpg",
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/e/detoxthickening-13.jpg"
+      ],
+      "title": "Detox Thickening Dry Shampoo",
+      "url": "https://www.drybar.com/hair-care-products/all-hair-care-products/detox-thickening-dry-shampoo"
+    },
+    {
+      "id": 11,
+      "price": 30,
+      "category": "hair care",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/h/i/highvolumeponyset_3600x3600.jpg",
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/the3daybenderrotatingcurlingiron_3_9.jpg"
+      ],
+      "title": "High Volume Pony Set"
+    },
+    {
+      "id": 12,
+      "price": 161.7,
+      "category": "hair care",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/o/southerncomfortset_3600x3600.jpg",
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/o/southernbellevolumemousse_2_3.jpg"
+      ],
+      "title": "The Southern Comfort Set"
+    },
+    {
+      "id": 13,
+      "price": 205.1,
+      "category": "hair care",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/thecosmoset_3600x3600.jpg",
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/the3daybenderrotatingcurlingiron_2_1_1.jpg"
+      ],
+      "title": "The Cosmo Set"
+    },
+    {
+      "id": 14,
+      "price": 15,
+      "category": "hair care",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/f/i/finalcall_blanc_travel_white_rgb_large.jpg"
+      ],
+      "title": "Final Call Frizz & Static Control Mist Travel Size"
+    },
+    {
+      "id": 15,
+      "price": 28,
+      "category": "hair care",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/b/i/bigswigthickeningsprayfullsize_1_1.jpg",
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/b/i/bigswigthickeningsprayfullsize_19_1.jpg"
+      ],
+      "title": "Big Swig Thickening Spray"
+    },
+    {
+      "id": 16,
+      "price": 15,
+      "category": "hair care",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/f/i/finalcall_blanc_retail_white_rgb_1.jpg",
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/f/i/finalcall_ba_2_2.jpg"
+      ],
+      "title": "Final Call Frizz & Static Control Mist"
+    },
+    {
+      "id": 17,
+      "price": 28,
+      "category": "hair care",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/e/detoxgentle.jpg",
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/e/detoxgentle_infographic1_benefits.jpg"
+      ],
+      "title": "Detox Gentle Sensitive Scalp Dry Shampoo"
+    },
+    {
+      "id": 18,
+      "price": 36,
+      "category": "hair care",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/c/r/crowntonic_allure.jpg",
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/c/r/crowntonic_flatlay-7.jpg"
+      ],
+      "title": "Crown Tonic Pre-Shampoo Scalp-Balancing Cleanser"
+    },
+    {
+      "id": 19,
+      "price": 32,
+      "category": "hair care",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/c/u/cureliqueursham_retail_bottle_3500x3500_1.jpg",
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/c/u/cureliqueur_flatlay_wbadge_3.jpg"
+      ],
+      "title": "Cure Liqueur Strengthening Shampoo"
+    },
+    {
+      "id": 20,
+      "price": 29,
+      "category": "hair care",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/p/sparklingsodashinemistfullsize_1.jpg"
+      ],
+      "title": "Sparkling Soda Shine Mist"
+    },
+    {
+      "id": 21,
+      "price": 26,
+      "category": "Best Seller",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/g/i/gin_twist_sham_1.jpg",
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/g/i/gintwist_flatlay_wbadge_3.jpg"
+      ],
+      "title": "Gin Twist Curl Quenching Shampoo"
+    },
+    {
+      "id": 22,
+      "price": 54,
+      "category": "hair care",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/e/seltzerspritz_hairspray_original_bb_3600x3600.jpg",
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/e/seltzerspritz_ba_1.jpg"
+      ],
+      "title": "Seltzer Spritz Flexible Hold Hairspray Jumbo Size"
+    },
+    {
+      "id": 23,
+      "price": 42,
+      "category": "hair care",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/e/detoxdryshampoooriginaljumbosize_1.jpg",
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/e/detoxdryshampoooriginaljumbosize_2.jpg"
+      ],
+      "title": "Detox Dry Shampoo Original Scent Jumbo Size"
+    },
+    {
+      "id": 24,
+      "price": 28,
+      "category": "hair care",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/g/i/gin_twist_styler.jpg",
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/g/i/gin_twist-29.jpg"
+      ],
+      "title": "Gin Twist Curl Conditioning Styler"
+    },
+    {
+      "id": 25,
+      "price": 26,
+      "category": "Best Seller",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/g/i/gin_twist_gelee.jpg",
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/g/i/gin_twist-31.jpg"
+      ],
+      "title": "Gin Twist Edge Control Gel"
+    },
+    {
+      "id": 26,
+      "price": 26,
+      "category": "Special Offer",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/g/i/gin_twist_sham_1.jpg",
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/g/i/gintwist_flatlay_wbadge_3.jpg"
+      ],
+      "title": "Gin Twist Curl Quenching Shampoo"
+    },
+    {
+      "id": 27,
+      "price": 26,
+      "category": "Special Offer",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/g/i/gin_twist_gelee.jpg",
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/g/i/gin_twist-31.jpg"
+      ],
+      "title": "Gin Twist Edge Control Gel"
+    },
+    {
+      "id": 28,
+      "price": 36,
+      "category": "Special Offer",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/c/o/cocomintfloat.jpg",
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/c/o/cocomintfloat_2023_infographic1.jpg"
+      ],
+      "title": "Cocomint Float Scalp and Body Scrub"
+    },
+    {
+      "id": 29,
+      "price": 23,
+      "category": "Special Offer",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/o/n/onetwopunch_0_1_1.jpg",
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/o/n/onetwopunch_flatlay_wbadge.jpg"
+      ],
+      "title": "One-Two Punch Water-Activated 2-in-1 Hair Wash"
+    },
+    {
+      "id": 30,
+      "price": 54,
+      "category": "Special Offer",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/e/seltzerspritz_hairspray_original_bb_3600x3600.jpg",
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/e/seltzerspritz_ba_1.jpg"
+      ],
+      "title": "Seltzer Spritz Flexible Hold Hairspray Jumbo Size"
+    },
+    {
+      "id": 31,
+      "price": 205.1,
+      "category": "Special Price",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/thecosmoset_3600x3600.jpg",
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/the3daybenderrotatingcurlingiron_2_1_1.jpg"
+      ],
+      "title": "The Cosmo Set"
+    },
+    {
+      "id": 32,
+      "price": 161.7,
+      "category": "Special Price",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/o/southerncomfortset_3600x3600.jpg",
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/o/southernbellevolumemousse_2_3.jpg"
+      ],
+      "title": "The Southern Comfort Set"
+    },
+    {
+      "id": 33,
+      "price": 183.4,
+      "category": "Special Price",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/h/i/highvolumeponyset_3600x3600.jpg",
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/the3daybenderrotatingcurlingiron_3_9.jpg"
+      ],
+      "title": "High Volume Pony Set"
+    },
+    {
+      "id": 34,
+      "price": 28,
+      "category": "regular price",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/e/detoxdryshamvanillabourbon_retail_white_rgb_update.jpg",
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/e/detoxdryshampoovanillabourbonfullsize_6_update.jpg"
+      ],
+      "title": "Detox Dry Shampoo Vanilla Bourbon Scent"
+    },
+    {
+      "id": 35,
+      "price": 28,
+      "category": "regular price",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/e/detoxdryshampoograpefruitmimosafullsize_1.jpg",
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/e/detoxdryshampoograpefruitmimosafullsize_4.jpg"
+      ],
+      "title": "Detox Dry Shampoo Grapefruit Mimosa Scent"
+    },
+    {
+      "id": 36,
+      "price": 28,
+      "category": "regular price",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/e/detoxdryshampoosangriaspritzer_1.jpg",
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/d/e/detoxdryshampoosangriaspritzer_2.jpg"
+      ],
+      "title": "Detox Dry Shampoo Sangria Spritzer Scent"
+    },
+    {
+      "id": 37,
+      "price": 29,
+      "category": "Best Seller",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/o/southernbellevolumerootlifterfullsize_1.jpg",
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/s/o/southernbellevolumerootlifterfullsize_2.jpg"
+      ],
+      "title": "Southern Belle Volume-Boosting Root Lifter"
+    },
+    {
+      "id": 38,
+      "price": 28,
+      "category": "Best Seller",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/the_sheriff_medium_hold_hairspray.jpg",
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/t/h/the_sheriff_medium_hold_hairspray.jpg"
+      ],
+      "title": "The Sheriff Medium Hold Hairspray"
+    },
+    {
+      "id": 39,
+      "price": 34,
+      "category": "Best Seller",
+      "images": [
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/i/liquidglassinstantglossingrinse.jpg",
+        "https://www.drybar.com/media/catalog/product/cache/175a31b6775d5afb14113a554bcf3bb4/l/i/liquidglass_gloss-1.jpg"
+      ],
+      "title": "Liquid Glass Instant Glossing Rinse"
+    }
+  ],
+  "cart": []
 }

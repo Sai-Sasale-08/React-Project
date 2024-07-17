@@ -2,8 +2,6 @@ import React from 'react'
 import Container from 'react-bootstrap/esm/Container'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
-
-import Footer from '../Components/Footer';
 import Row from 'react-bootstrap/esm/Row';
 import Col from 'react-bootstrap/esm/Col';
 import { FaFacebookF, FaInstagram, FaTiktok, FaYoutube } from 'react-icons/fa';

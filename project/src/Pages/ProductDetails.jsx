@@ -1,17 +1,29 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import Container from 'react-bootstrap/esm/Container'
-import { useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 
 
 const ProductDetails = () => {
 
     const [productdata,setproductdata]=useState([])
     const {id}=useParams()
+    const navigate=useNavigate()
+
+    const handleclick=()=>{
+      axios.post("http://localhost:8080/cart",productdata).then((res)=>{
+        console.log(res);
+        navigate("/products");
+        alert("Successfully")
+      })
+      .catch((err)=>console.log(err))
+    }
 
     useEffect(()=>{
         axios.get(`http://localhost:8080/products/${id}`)
-        .then((res)=>{setproductdata(res.data)})
+        .then((res)=>{setproductdata(res.data)
+
+        })
         .catch((err)=>{console.log(err)})
     },[])
 
@@ -19,7 +31,7 @@ const ProductDetails = () => {
     <Container>
     <div style={{display:"flex",width:"100%"}}>
       <div style={{width:"60%"}}>
-        <h1>Image</h1>
+        {/* <img src={productdata.images[0]} width={"100%"} height={"550px"} alt="" /> */}
       </div>
       <div style={{width:"40%",margin:"30px 30px"}}>
         <p style={{fontSize:"25px"}}>{productdata.title}</p>
@@ -35,7 +47,7 @@ const ProductDetails = () => {
                 <p>quty</p>
             </div>
             <div style={{width:"80%"}}>
-                <button style={{padding:"10px 140px",color:"black",backgroundColor:"yellow",fontSize:"14px",fontWeight:"bold"}} className='addtobag'>ADD TO BAG</button>
+                <button onClick={handleclick} style={{padding:"10px 140px",color:"black",backgroundColor:"yellow",fontSize:"14px",fontWeight:"bold"}} className='addtobag'>ADD TO BAG</button>
             </div>
 
         </div>
