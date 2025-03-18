@@ -22,7 +22,7 @@ const Navbar = () => {
         <Container fluid style={{backgroundColor:"#f9f9f9"}}>
         <Container style={{display:"flex",justifyContent:"space-between"}}>
             <div>
-            <p>fvhcvd</p>
+            <p>PRODUCTS</p>
             </div>
             <div style={{display:"flex",fontSize:'23px',margin:"5px 0px"}}>
                 <CiSearch style={{marginRight:"18px",marginTop:"10px"}}/>
